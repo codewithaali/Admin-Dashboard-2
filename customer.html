@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 17</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h2>Admin Dashboard</h2>
+    <div class="avatar">
+    <div class="bar"><input type="search"placeholder="🔍︎ Search here..."></div>
+    <div class="bell">🕭</div>
+    <div class="img1"><img src="./accets/images/avatar1.jpeg" alt=""></div>
+    <div class="img">
+    <h4>Admin</h4>
+    <span class="p"><p>Administration</p></span></div>
+    </div>
+    </div>
+    <div class="sidebar">
+    <a href="./home.html"><i class="fas fa-home"></i>&emsp;Home</a>
+    <a href="./order.html">📑&emsp;Orders</a>
+    <a href="./product.html">🛒&emsp;Prodects</a>
+    <a href="./customer.html"><i class="fas fa-users"></i>&emsp;Customer</a>
+    <a href="./setting.html">⚙&emsp;Setting</a>
+    <a href="./logout.html">🚪Logout</a>
+    </div>
+    <div class="main-content">
+    <h1>Customers</h1>
+    <div class="card cor">
+    <h3>Total Customers</h3>
+    <p>200+</p>
+    </div>
+    <div class="card cor">
+        <h3>New Customers</h3>
+        <p>25</p>
+    </div>
+    <div class="card cor">
+        <h3>Active Customers</h3>
+        <p>150</p>
+    </div>
+    <div class="card cor">
+        <h3>Blocked Customers</h3>
+        <p>5</p>
+    </div>
+    <div class="table-container">
+        <div class="search">
+        <input type="search"placeholder="Search order by customer...">
+        <select name="Filter Status" id="">
+        <option value="">Filter Status</option>
+        </select>
+        <input type="date" name="" id=""placeholder="Form Date">
+        <input type="date" name="" id=""placeholder="To Date">
+        <button>Filter</button>
+        </div>
+        <table>
+            <tr>
+                <th>Customer Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Orders</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>#C101</td>
+                <td>Ali</td>
+                <td>ali@example.com</td>
+                <td>0300-1234567</td>
+                <td>10</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C102</td>
+                <td>Omar</td>
+                <td>omar@example.com</td>
+                <td>0300-1234567</td>
+                <td>5</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C103</td>
+                <td>Saqib</td>
+                <td>saqib@example.com</td>
+                <td>0300-1234567</td>
+                <td>8</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C104</td>
+                <td>Ahmed</td>
+                <td>ahmed@example.com</td>
+                <td>0300-1234567</td>
+                <td>3</td>
+                <td class="cancel">Inactive</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C105</td>
+                <td>Usman</td>
+                <td>usman@example.com</td>
+                <td>0300-1234567</td>
+                <td>12</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C106</td>
+                <td>Sajid</td>
+                <td>sajid@example.com</td>
+                <td>0300-1234567</td>
+                <td>6</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C107</td>
+                <td>Hamza</td>
+                <td>hamza@example.com</td>
+                <td>0300-1234567</td>
+                <td>4</td>
+                <td class="complete">Inactive</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+            <tr>
+                <td>#C108</td>
+                <td>Bilal</td>
+                <td>bilal@example.com</td>
+                <td>0300-1234567</td>
+                <td>7</td>
+                <td class="complete">Active</td>
+                <td>👁&emsp;✎&emsp;🗑</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

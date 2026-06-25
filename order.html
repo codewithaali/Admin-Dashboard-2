@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 17</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h2>Admin Dashboard</h2>
+    <div class="avatar">
+    <div class="bar"><input type="search"placeholder="🔍︎ Search here..."></div>
+    <div class="bell">🕭</div>
+    <div class="img1"><img src="./accets/images/avatar1.jpeg" alt=""></div>
+    <div class="img">
+    <h4>Admin</h4>
+    <span class="p"><p>Administration</p></span></div>
+    </div>
+    </div>
+    <div class="sidebar">
+    <a href="./home.html"><i class="fas fa-home"></i>&emsp;Home</a>
+    <a href="./order.html">📑&emsp;Orders</a>
+    <a href="./product.html">🛒&emsp;Prodects</a>
+    <a href="./customer.html"><i class="fas fa-users"></i>&emsp;Customer</a>
+    <a href="./setting.html">⚙&emsp;Setting</a>
+    <a href="./logout.html">🚪Logout</a>
+    </div>
+    <div class="main-content">
+    <h1>Orders</h1>
+    <div class="card cor">
+    <h3>Total Orders</h3>
+    <p>125</p>
+    </div>
+    <div class="card cor">
+        <h3>Pending Orders</h3>
+        <p>18</p>
+    </div>
+    <div class="card cor">
+        <h3>Complete Order</h3>
+        <p>280</p>
+    </div>
+    <div class="card cor">
+        <h3>Cancel Order</h3>
+        <p>12</p>
+    </div>
+    <div class="table-container">
+        <div class="search">
+        <input type="search"placeholder="Search order by customer...">
+        <select name="Filter Status" id="">
+        <option value="">Filter Status</option>
+        </select>
+        <input type="date" name="" id=""placeholder="Form Date">
+        <input type="date" name="" id=""placeholder="To Date">
+        <button>Filter</button>
+        </div>
+        <table>
+            <tr>
+                <th>Order Id</th>
+                <th>Coustomer</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Payment</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>#101</td>
+                <td>Ali</td>
+                <td>$4000</td>
+                <td>13 jun 2026</td>
+                <td class="pending">Pending</td>
+                <td>Cash on Delivery</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+            <tr>
+                <td>#102</td>
+                <td>Omar</td>
+                <td>$2500</td>
+                <td>12 jun 2026</td>
+                <td class="complete">Complete</td>
+                <td>Paid</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+            <tr>
+                <td>#103</td>
+                <td>Saqib</td>
+                <td>$2000</td>
+                <td>11 jun 2026</td>
+                <td class="cancel">Cancel</td>
+                <td>paid</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+            <tr>
+                <td>#104</td>
+                <td>Ahmed</td>
+                <td>$1000</td>
+                <td>10 jun 2026</td>
+                <td class="pending">Pending</td>
+                <td>Cash on Delivery</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+            <tr>
+                <td>#105</td>
+                <td>Usman</td>
+                <td>$3000</td>
+                <td>09 jun 2026</td>
+                <td class="complete">Complete</td>
+                <td>paid</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+            <tr>
+                <td>#106</td>
+                <td>Sajid</td>
+                <td>$1500</td>
+                <td>08 jun 2026</td>
+                <td class="cancel">Cancel</td>
+                <td>Cash on Delivery</td>
+                <td>👁&emsp;🖨️</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,324 @@
+ *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            background-color: rgb(234, 229, 229);
+        }
+        .header{
+            padding: 13px 20px;
+            background-color: #2c3e50;
+            color: white;
+            width: 100%;
+            z-index: 1;
+            position: fixed;
+        }
+        .header>h2{
+            padding: 13px;
+            display: inline-block;
+            width: 48%;
+            vertical-align: middle;
+        }
+        .header>.avatar{
+            display: inline-block;
+            width: 51%;
+            text-align: right;
+            vertical-align: middle;
+            margin-bottom: 0px;
+            padding: 0px 10px;
+
+        }
+        .avatar .bell{
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            width: 70px;
+            font-size: 30px;
+            
+        }
+        .avatar .bar{
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            width: 250px;
+        }
+        .bar input{
+            width: 250px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: 1px solid lightgray;
+        }
+        .avatar .img{
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            vertical-align: middle;
+            text-align: left;
+        }
+        .avatar .img1{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            vertical-align: middle;
+            text-align: ;
+        }
+        .avatar .img1>img{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .avatar .img>h4{
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 5px;
+        }
+        .img .p{
+            color:  rgb(234, 229, 229);
+        }
+        .sidebar{
+            width: 200px;
+            height: calc(100vh - 80px);
+            background-color: #334e5c;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            
+        }
+        .main-content{
+            margin-left: 190px;
+            padding: 20px;
+            padding-top: 90px;
+        }
+        .sidebar a{
+            display: block;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            margin-top: 15px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            padding-left: 15px;
+        }
+        .sidebar a:hover{
+            background-color: #2c3e50;
+        }
+        a:last-child{
+            position: absolute;
+            bottom: 15px;
+            width: 90%;
+            left: 0;
+            background-color: rgb(147, 146, 146);
+        }
+        a:last-child:hover{
+            background-color: rgb(171, 170, 170);
+        }
+        .main-content .card{
+            display: inline-block;
+            width: 250px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px lightgray;
+        }
+        .table-container{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 10px lightgray;
+        }
+        .table-container h2{
+            margin-bottom: 15px;
+        }
+        table{
+            width: 100%;
+            font-size: 18px;
+            border-collapse: collapse;
+        }
+        table th,table td{
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        table th{
+            background-color: #ecf0f1;
+        }
+        table tr:hover{
+            background-color: #f8f8f8;
+        }
+        .pending{
+            color: rgb(216, 216, 5);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .complete{
+            color: green;
+            font-weight: bold;
+            font-size: 20px;
+       }
+       .cancel{
+            color: red;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .main-content .cor{
+            width: 240px;
+            padding: 10px;
+            margin: 6px;
+            border-radius: 10px;
+        }
+        .search{
+            margin-bottom: 10px;
+        }
+        .search input{
+            width: 200px;
+            padding: 8px 8px;
+            border-radius: 10px;
+            margin-right: 10px;
+            border: 1px solid lightgray;
+        }
+        .search select{
+            width: 200px;
+            padding: 8px 8px;
+            border-radius: 10px;
+            margin-right: 10px;
+            border: 1px solid lightgray;
+        }
+        .search button{
+            width: 50px;
+            padding: 8px 8px;
+            border-radius: 10px;
+            background-color: rgb(86, 86, 249);
+            color: white;
+            outline: none;
+            border: 1px solid rgb(86, 86, 249);
+        }
+        .main{
+           width: 120px;
+           height: 50px; 
+           position: relative;        
+        }
+        .main .one{
+            position: absolute;
+            left: 0;
+            height: 52px;
+            width: 45px;
+            background-color: lightgray;
+            border-radius: 10px; 
+        }
+        .one img{
+            width: 30px;
+            height: 40px;
+            position: absolute;
+            left: 7px;
+            top: 6px;
+        }
+        .main .two{
+            position: absolute;
+            right: 10px;
+            top: 13px;
+            font-size: 22px;
+        }
+        .mainpet .two2{
+            position: absolute;
+            right: 0px;
+            top: 13px;
+            font-size: 22px;
+        }
+        .mainpet{
+           width: 130px;
+           height: 47px; 
+           position: relative;          
+        }
+        .mainpet .one{
+            position: absolute;
+            left: 0;
+            height: 52px;
+            width: 45px;
+            background-color: lightgray;
+            border-radius: 10px; 
+        }
+        .tables th,table td{
+            padding: 5px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .box{
+            width: 450px;
+            height: 350px;
+            text-align: center;
+            position: relative;
+            margin: auto;
+            top: 180px;
+            background-color: white;
+            padding: 10px 30px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px 10px lightgray;
+        }
+        .icon{
+            /* display: block; */
+            text-align: center;
+            border: 1px solid rgb(243, 218, 218);
+            background-color: rgb(243, 218, 218);
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-left: 150px;
+            font-size: 45px;
+            color: red;
+            margin-top: 20px;
+        }
+        .heading{
+            display: block;
+            text-align: center;
+            width: 400px;
+            /* margin-left: 80px; */
+            margin-top: 10px;
+            height: 100px;
+        }
+        .heading p{
+            height: 50px;
+            line-height: 140%;
+            font-size: 20px;
+            color: gray;
+        }
+        .heading h1{
+            font-size: 40px;
+        }
+        .button{
+            display: block;
+            text-align: center;
+            width: 400px;
+            height: 100px;
+            padding: 10px 5px;
+        }
+        .button form{
+            display: inline-block;
+            width: 160px;
+        }
+        .btn1{
+            font-size: 24px;
+            padding: 8px 20px;
+            border-radius: 10px;
+            color: white;
+            background-color: red;
+            border: 1px solid red;
+            text-decoration: none;
+            /* width: 180px; */
+            
+        }
+        .btn2 {
+            font-size: 24px;
+            padding: 8px 30px;
+            margin: 10px 30px;
+            border-radius: 10px;
+            background-color: rgb(239, 237, 237);
+            border: 1px solid gray;
+            text-decoration: none;
+            /* width: 180px; */
+        }
